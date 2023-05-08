@@ -14,7 +14,9 @@ An 8T 1-bit full adder is a digital circuit that is used to perform binary addit
 The 8T 1-bit full adder circuit is designed using a combination of PMOS and NMOS transistors. The circuit uses four PMOS transistors and four NMOS transistors, with each transistor having specific dimensions (width and length) based on the technology node of the fabrication process being used.
 
 The 8T 1-bit full adder circuit can be represented by the following Boolean expression:
+
 Sum (S) = A ⊕ B ⊕ Cin
+
 Carry (Cout) = (A AND B) OR (Cin AND (A ⊕ B))
 
 Where A, B, and Cin are the binary input bits representing the two numbers to be added and the carry-in bit, respectively, and S and Cout are the binary output bits representing the sum and carry-out bit, respectively.
@@ -23,6 +25,7 @@ The 8T 1-bit full adder circuit consists of three stages: a first stage, a secon
 In the 8T 1-bit full adder circuit, each transistor is designed to operate in either the cut-off or saturation region, depending on the input signals. The circuit is designed to operate with a single supply voltage, which is typically in the range of 1-1.2V.
 
 ### The Project details of mine :
+
 I'm using 45nm GPDK :-
 
 1 ) Four pMOS1v & Four nMOS1v.
