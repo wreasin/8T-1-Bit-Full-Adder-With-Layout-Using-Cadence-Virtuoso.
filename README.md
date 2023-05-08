@@ -28,19 +28,19 @@ In the 8T 1-bit full adder circuit, each transistor is designed to operate in ei
 
 I'm using 45nm GPDK :-
 
-1 ) Four pMOS1v & Four nMOS1v.
-2 ) Here i am doing four types of Analysis :
- i ) Transient Response
- ii ) DC Response
- iii ) AC Response
- iv ) Noise Response
-3 ) I'm Calculated the Power Consumption (Average Power) of this circuit using Calculator.
-4 ) In Layout - Metals Used ( Metal1, Metal2 & Poly for gate )
+1 ) Four pMOS1v & Four nMOS1v.  
+2 ) Here i am doing four types of Analysis :  
+ i ) Transient Response  
+ ii ) DC Response  
+ iii ) AC Response  
+ iv ) Noise Response  
+3 ) I'm Calculated the Power Consumption (Average Power) of this circuit using Calculator.  
+4 ) In Layout - Metals Used ( Metal1, Metal2 & Poly for gate )  
 5 ) DRC and LVS clean (there are no error)
 
 So I designed a Schematic of the 8T 1-Bit Full Adder, where the whole thing is based on gpdk45nm. I have use 4 PMOS1v & 4 NMOS1v. I also designed a symbol of it, so that i can utilise that for further schematic creation.  
 
-The below figure shows a 8T 1-Bit Full Adder Circuit.
+The below figure shows a 8T 1-Bit Full Adder Circuit.  
 
 ![Scametic_gif](https://github.com/wreasin/CMOS-XNOR-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Scametic.gif?raw=true)
 ![Scametic](https://github.com/wreasin/CMOS-XNOR-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Scametic.PNG?raw=true)
