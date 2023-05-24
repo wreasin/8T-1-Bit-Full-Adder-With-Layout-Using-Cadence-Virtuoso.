@@ -42,32 +42,30 @@ So I designed a Schematic of the 8T 1-Bit Full Adder, where the whole thing is b
 
 The below figure shows a 8T 1-Bit Full Adder Circuit.  
 
-![Scametic_gif](https://github.com/wreasin/CMOS-XNOR-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Scametic.gif?raw=true)
-![Scametic](https://github.com/wreasin/CMOS-XNOR-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Scametic.PNG?raw=true)
-![Symbol](https://github.com/wreasin/CMOS-XNOR-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Symbol.PNG?raw=true)
-![Symbol_Scametic](https://github.com/wreasin/CMOS-XNOR-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Symbol_Scametic.PNG?raw=true)
+![Scametic](https://github.com/wreasin/8T-1-Bit-Full-Adder-With-Layout-Using-Cadence-Virtuoso./blob/main/Image/Scametic.PNG)
+![Symbol](https://github.com/wreasin/8T-1-Bit-Full-Adder-With-Layout-Using-Cadence-Virtuoso./blob/main/Image/Symbol.PNG)
 
 #### Transient, DC, AC & Noise Response :
 _Here I am doing four types of Analysis - Transient, DC, AC & Noise_.  
 In DC and Transient Analysis i have measured Va, Vb & Vout as Voltage, and Current (I) in VDD node. In AC Analysis i have measured Va, Vb & Vout as Voltage Frequency and Current (I) Frequency in VDD node. For DC and Transient Analysis the plots of _Va_ , _Vb_ and _Vout_ shows the _voltages_, on the otherhand _VDD(I4)_ shows the _current (I)_. For AC Analysis the plots of _Va_ , _Vb_ and _Vout_ shows the _voltage frequency_, on the otherhand _VDD(I4)_ shows the _current (I) frequency_. 
-![output](https://github.com/wreasin/CMOS-XNOR-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Output.PNG?raw=true)  
-![output2](https://github.com/wreasin/CMOS-XNOR-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Output_2.PNG?raw=true)
+![Symbol_Scametic](https://github.com/wreasin/8T-1-Bit-Full-Adder-With-Layout-Using-Cadence-Virtuoso./blob/main/Image/Symbol_Scametic.PNG)
+![output](https://github.com/wreasin/8T-1-Bit-Full-Adder-With-Layout-Using-Cadence-Virtuoso./blob/main/Image/Transient_AC_DC_Noise%20Analysis.PNG) 
 
 #### Calculating Power Consumption also Average Power of this circuit using Calculator. :  
-For measuring of Noise Response, Noise Figure and Noise Factor i had to use PORTS instead of Vpulse. For Noise Analysis i have measured input, output & VN2 noise and also Noise Figure. In Noise Response the plots shows the input, output & VN2 noise and also Noise Figure.  
-![noise_figure_scametic](https://github.com/wreasin/CMOS-XNOR-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Noise%20Analysis_Scametic.PNG?raw=true)
-![noise_output](https://github.com/wreasin/CMOS-XNOR-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Noise_Output(IN.OUT,Noise%20Figure,Noise%20Factor).PNG?raw=true)
-![noise_output_2](https://github.com/wreasin/CMOS-XNOR-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Noise_Output(IN.OUT,Noise%20Figure,Noise%20Factor)_2.PNG?raw=true)
+Calculating Power Consumption Calculator for an 8T 1-bit Full Adder. The calculator allows you to calculate both the total power consumption and the average power of the circuit. By inputting relevant parameters, you can quickly determine the power requirements of the circuit, aiding in design and optimization processes.  
+![All Power Consumption](https://github.com/wreasin/8T-1-Bit-Full-Adder-With-Layout-Using-Cadence-Virtuoso./blob/main/Image/All%20Power%20Consumption.PNG)
+![Sum Carry_Aver_Power Consumption](https://github.com/wreasin/8T-1-Bit-Full-Adder-With-Layout-Using-Cadence-Virtuoso./blob/main/Image/Sum_Carry_Aver_Power%20Consumption.PNG)
+![Sum Power Consumption](https://github.com/wreasin/8T-1-Bit-Full-Adder-With-Layout-Using-Cadence-Virtuoso./blob/main/Image/Sum%20Power%20Consumption.PNG) 
+![Carry Power Consumption](https://github.com/wreasin/8T-1-Bit-Full-Adder-With-Layout-Using-Cadence-Virtuoso./blob/main/Image/Carry%20Power%20Consumption.PNG)
 
 #### Layout :
 In Layout i have use Metal1, Metal2 and Poly layer for gate. I have use here X & Y snap spacing is 0.005m and also the minimum width of metal utilized for routing is 0.12.  
-![Layout_gif](https://github.com/wreasin/CMOS-XNOR-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Layout.gif?raw=true)
-![Layout](https://github.com/wreasin/CMOS-XNOR-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Layout.PNG?raw=true)
+![Layout](https://github.com/wreasin/8T-1-Bit-Full-Adder-With-Layout-Using-Cadence-Virtuoso./blob/main/Image/Layout.PNG)
 
 #### Design Rule Check (DRC)  
-DRC is clean. There are no error in DRC.
-![DRC](https://github.com/wreasin/CMOS-XNOR-Gate-Design-using-Cadence-Virtuoso/blob/main/image/DRC%20Check.PNG?raw=true)  
+DRC is clean. There are no error in DRC.  
+![DRC](https://github.com/wreasin/8T-1-Bit-Full-Adder-With-Layout-Using-Cadence-Virtuoso./blob/main/Image/DRC%20Cheack.PNG)
 
 #### Layout Versus Schematic (LVS)  
 LVS is clean. There are no error in LVS.  
-![LVS](https://github.com/wreasin/CMOS-XNOR-Gate-Design-using-Cadence-Virtuoso/blob/main/image/LVS%20Check.jpg?raw=true)
+![LVS](https://github.com/wreasin/8T-1-Bit-Full-Adder-With-Layout-Using-Cadence-Virtuoso./blob/main/Image/LVS%20Cheack.PNG)
