@@ -31,9 +31,9 @@ I'm using 45nm GPDK :-
 1 ) Four pMOS1v & Four nMOS1v.  
 2 ) Here i am doing four types of Analysis :  
     i ) Transient Response  
-ii ) DC Response  
-iii ) AC Response  
-iv ) Noise Response  
+    ii ) DC Response  
+    iii ) AC Response  
+    iv ) Noise Response  
 3 ) I'm Calculated the Power Consumption (Average Power) of this circuit using Calculator.  
 4 ) In Layout - Metals Used ( Metal1, Metal2 & Poly for gate )  
 5 ) DRC and LVS clean (there are no error)
